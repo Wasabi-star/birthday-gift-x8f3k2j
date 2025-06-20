@@ -61,9 +61,11 @@ button#openBtn {
   display: flex;        /* nebeneinander anordnen */
   justify-content: center; /* zentriert in der Zeile */
   flex-wrap: wrap;      /* falls der Platz knapp wird, brechen sie um */
-  width: auto;
 }
 
+.gallery img {
+  width: 150px;
+  height: auto;
 
 /* Alle Links im Content-Bereich als Buttons stylen */
 .content a {

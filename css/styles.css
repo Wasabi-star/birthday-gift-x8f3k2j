@@ -62,7 +62,7 @@ button#openBtn {
 }
 
 .gallery img {
-  width: 300px;          /* Original-Breite behalten */
+  width: 150px;          /* Original-Breite behalten */
   height: auto;         /* Original-Höhe behalten */
 }
 

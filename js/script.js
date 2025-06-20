@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
   // 1) Passwort abfragen
-  const pwd = prompt("Bitte gib das Geheimwort ein, um dein Geschenk auszupacken:");
+  const pwd = prompt("Please put in the password to unpack your present:");
 
   // 2) prüfen
   if (pwd !== "19962002") {
-    document.body.innerHTML = "<h1>Zugriff verweigert 🔒</h1>";
+    document.body.innerHTML = "<h1>No entry without password(reload for pop up to put in password) 🔒</h1>";
     return;  // Abbruch, der Rest lädt nicht
   }
 

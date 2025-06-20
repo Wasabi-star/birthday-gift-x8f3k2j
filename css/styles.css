@@ -1,5 +1,8 @@
 /* css/styles.css */
 body {
+  background: hotpink !important;
+}
+body {
   font-family: sans-serif;
   text-align: center;
   padding: 2rem;

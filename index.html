@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Dein Geburtstagsgeschenk</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="gift-box" id="giftBox">
+    <!-- Geschenk-Schleife -->
+    <div class="ribbon"></div>
+    <button id="openBtn">Klick hier zum Auspacken 🎁</button>
+  </div>
+
+  <div class="content hidden" id="content">
+    <h1>Alles Gute zum Geburtstag!</h1>
+
+    <!-- Dein Brief als PDF-Link -->
+    <p><a href="files/dein-brief.pdf" target="_blank" download>Brief öffnen (PDF)</a></p>
+
+    <!-- Bildergalerie -->
+    <div class="gallery">
+      <img src="images/foto1.jpg" alt="Foto 1">
+      <img src="images/foto2.jpg" alt="Foto 2">
+      <!-- … weitere <img> nach Bedarf … -->
+    </div>
+
+    <!-- ZIP-Datei zum Herunterladen -->
+    <p><a href="files/karte.zip" download>Karte (Vorder- und Rückseite) herunterladen</a></p>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

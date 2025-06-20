@@ -57,7 +57,6 @@ button#openBtn {
 .gallery {
   display: flex;        /* nebeneinander anordnen */
   justify-content: center; /* zentriert in der Zeile */
-  gap: 1rem;            /* Abstand zwischen den Bildern */
   flex-wrap: wrap;      /* falls der Platz knapp wird, brechen sie um */
 }
 

@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 2) prüfen
   if (pwd !== "19962002") {
-    document.body.innerHTML = "<h1>No entry without password(reload for pop up to put in password) 🔒</h1>";
+    document.body.innerHTML = "<h1>No entry without password 🔒</h1>";
     return;  // Abbruch, der Rest lädt nicht
   }
 

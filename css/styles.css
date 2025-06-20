@@ -63,7 +63,7 @@ button#openBtn {
 }
 
 .gallery img { 
-  width: 200px;      /* feste Breite */
+  width: 70%;      /* feste Breite */
   height: auto;      /* Höhe automatisch, um das Seitenverhältnis zu wahren */
   object-fit: contain; /* Bild wird skaliert, aber ganz sichtbar ohne Zuschneiden */
   border-radius: 4px;

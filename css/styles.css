@@ -57,21 +57,18 @@ button#openBtn {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+
 .gallery {
-  display: grid;
-  grid-template-areas:
-    "one two"
-    "three three";
-  grid-gap: 1rem;
+  text-align: center;    /* zentriert die Bilder innerhalb des Containers */
 }
-#pic1 { grid-area: one; }
-#pic2 { grid-area: two; }
-#pic3 { grid-area: three; }
 
 .gallery img {
-  width: auto;
-  height: auto;
+  display: inline-block; /* nebeneinander, Reihenfolge folgt HTML */
+  margin: 1rem;          /* Abstand um jedes Bild */
+  width: auto;           /* Originalbreite behalten */
+  height: auto;          /* Originalhöhe behalten */
 }
+
 
 /* Alle Links im Content-Bereich als Buttons stylen */
 .content a {

@@ -58,14 +58,20 @@ button#openBtn {
 }
 
 .gallery {
-  display: flex;        /* nebeneinander anordnen */
-  justify-content: center; /* zentriert in der Zeile */
-  flex-wrap: wrap;      /* falls der Platz knapp wird, brechen sie um */
+  display: grid;
+  grid-template-areas:
+    "one two"
+    "three three";
+  grid-gap: 1rem;
 }
+#pic1 { grid-area: one; }
+#pic2 { grid-area: two; }
+#pic3 { grid-area: three; }
 
 .gallery img {
-  width: 150px;
+  width: auto;
   height: auto;
+}
 
 /* Alle Links im Content-Bereich als Buttons stylen */
 .content a {

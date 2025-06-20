@@ -3,32 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <title>Dein Geburtstagsgeschenk</title>
-  <link rel="stylesheet" href="css/styles.css">
   <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <!-- Geschenk-Box -->
   <div class="gift-box" id="giftBox">
-    <!-- Geschenk-Schleife -->
     <div class="ribbon"></div>
     <button id="openBtn">Klick hier zum Auspacken 🎁</button>
   </div>
 
+  <!-- Versteckter Inhalt -->
   <div class="content hidden" id="content">
     <h1>Alles Gute zum Geburtstag!</h1>
 
-    <!-- Dein Brief als PDF-Link -->
-    <p><a href="files/dein-brief.png" target="_blank" download>Brief öffnen</a></p>
+    <!-- Brief als PDF -->
+    <p>
+      <a href="files/dein-brief.png" target="_blank" download>
+        Brief öffnen (PDF)
+      </a>
+    </p>
 
     <!-- Bildergalerie -->
     <div class="gallery">
       <img src="images/foto1.jpg" alt="Foto 1">
       <img src="images/foto2.jpg" alt="Foto 2">
       <img src="images/foto3.jpg" alt="Foto 3">
-      <!-- … weitere <img> nach Bedarf … -->
+      <!-- Weitere Bilder hier einfügen -->
     </div>
 
-    <!-- ZIP-Datei zum Herunterladen -->
-    <p><a href="files/Karte.zip" download>Karte herunterladen</a></p>
+    <!-- ZIP-Datei -->
+    <p>
+      <a href="files/Karte.zip" download>
+        Karte (Vorder- und Rückseite) herunterladen
+      </a>
+    </p>
   </div>
 
   <script src="js/script.js"></script>

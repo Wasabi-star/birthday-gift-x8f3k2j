@@ -62,7 +62,9 @@ button#openBtn {
   margin: 1rem 0;
 }
 
-.gallery img {
-  max-width: 150px;
+.gallery img { 
+  width: 150px;      /* feste Breite */
+  height: auto;      /* Höhe automatisch, um das Seitenverhältnis zu wahren */
+  object-fit: contain; /* Bild wird skaliert, aber ganz sichtbar ohne Zuschneiden */
   border-radius: 4px;
 }

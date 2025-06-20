@@ -62,11 +62,4 @@ button#openBtn {
   margin: 1rem 0;
 }
 
-.gallery img {
-  /* entferne feste Breite/Höhe */
-  width: auto;
-  height: auto;
- border-radius: 4px;
 
-
-}

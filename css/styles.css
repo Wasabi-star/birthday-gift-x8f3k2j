@@ -62,8 +62,18 @@ button#openBtn {
   margin: 1rem 0;
 }
 
-.gallery img { 
-  width: 100%;      /* feste Breite */
-  height: auto;      /* Höhe automatisch, um das Seitenverhältnis zu wahren */
+.gallery img {
+  /* entferne feste Breite/Höhe */
+  width: auto;
+  height: auto;
+
+  /* max-width sorgt dafür, dass Bilder nicht über den Container hinauswachsen */
+  max-width: 100%;
+
+  /* damit das Seitenverhältnis immer stimmt */
+  object-fit: contain;
+
   border-radius: 4px;
+}
+
 }

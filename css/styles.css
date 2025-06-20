@@ -65,4 +65,33 @@ button#openBtn {
   height: auto;         /* Original-Höhe behalten */
 }
 
+/* Alle Links im Content-Bereich als Buttons stylen */
+.content a {
+  display: inline-block;          /* wie ein Button behandeln */
+  background-color: #c17d5a;      /* Geschenk-Farbton */
+  color: white;                   /* Textfarbe */
+  text-decoration: none;          /* Unterstreichung entfernen */
+  padding: 0.5rem 1rem;           /* Innenabstand */
+  border-radius: 4px;             /* abgerundete Ecken */
+  font-weight: bold;              /* etwas fetter */
+  transition: background 0.3s;    /* sanfter Hover-Effekt */
+  margin: 0.5rem 0;               /* Abstand oben/unten */
+}
+
+/* Hover- und Fokus-Zustand */
+.content a:hover,
+.content a:focus {
+  background-color: #a65c45;      /* dunklerer Ton beim Überfahren */
+  outline: none;                  /* Standard-Outline aus */
+  box-shadow: 0 0 0 3px rgba(193,125,90,0.4);
+}
+
+/* Wenn du nur Download-Links anders haben möchtest */
+.content a[download] {
+  background-color: #6b8e23;      /* eigener Farbton für Downloads */
+}
+
+.content a[download]:hover {
+  background-color: #556b2f;
+}
 

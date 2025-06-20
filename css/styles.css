@@ -65,7 +65,7 @@ button#openBtn {
 .gallery img {
   display: inline-block; /* nebeneinander, Reihenfolge folgt HTML */
   margin: 1rem;          /* Abstand um jedes Bild */
-  width: auto;           /* Originalbreite behalten */
+  width: 150px;           /* Originalbreite behalten */
   height: auto;          /* Originalhöhe behalten */
 }
 

@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background: #f9f3ee;
+}
+
+.gift-box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 2rem auto;
+  background: #e2c9b9;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.gift-box.open {
+  transform: scaleY(0) translateY(100px);
+}
+
+.ribbon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: #c17d5a;
+}
+
+button#openBtn {
+  position: absolute;
+  bottom: 10px; left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.content.hidden {
+  display: none;
+}
+
+.content {
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.gallery img {
+  max-width: 150px;
+  border-radius: 4px;
+}

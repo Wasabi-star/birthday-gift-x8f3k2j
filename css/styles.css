@@ -69,7 +69,7 @@ button#openBtn {
 #pic3 { grid-area: three; }
 
 .gallery img {
-  width: auto;
+  width: 150px;
   height: auto;
 }
 
